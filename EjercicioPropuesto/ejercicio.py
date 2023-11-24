@@ -1,9 +1,16 @@
+# Se define la clase EquipoComputo
 class EquipoComputo:
+    # Constructor de la clase, se ejecuta al crear una nueva instancia de la clase
     def __init__(self, idEquipo, cargador, mouse, ambiente):
+        # Atributo del ID del equipo
         self.ID = idEquipo
+        # Atributo que indica si el equipo cuenta con cargador
         self.Cargador = cargador
+        # Atributo que indica si el equipo cuenta con mouse
         self.Mouse = mouse
+        # Atributo del ambiente en el que esta el equipo
         self.Ambiente = ambiente
+        # Lista vacia que almacena las novedades de los equipo
         self.Novedades = []
 
 # Se define un diccionario vacio llamado 'equipos' para almacenar la informacion de los equipos de computo.
